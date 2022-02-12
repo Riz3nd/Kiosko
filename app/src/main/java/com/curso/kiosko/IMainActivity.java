@@ -11,12 +11,10 @@ public interface IMainActivity {
 
     }
     interface Presenter{
-        void manejador(ActivityMainBinding bindings);
-        void changeTheme(AppCompatActivity activity);
+        void manejador(ActivityMainBinding bindings, AppCompatActivity activity);
     }
     interface Iterator{
-        void manejador(ActivityMainBinding bindings);
-        void changeTheme(AppCompatActivity activity);
+        void manejador(ActivityMainBinding bindings, AppCompatActivity activity);
     }
 
 }

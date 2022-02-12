@@ -16,8 +16,7 @@ public class MainActivity extends BaseActivity implements IMainActivity.View /*i
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         presenter = new MainActivityPresenter(/*this*/);
-        presenter.manejador(binding);
-        presenter.changeTheme(this);
+        presenter.manejador(binding,this);
     }
 
 }

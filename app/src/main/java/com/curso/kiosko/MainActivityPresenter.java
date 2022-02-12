@@ -14,14 +14,8 @@ public class MainActivityPresenter implements IMainActivity.Presenter{
     }
 
     @Override
-    public void manejador(ActivityMainBinding bindings) {
-        iterator.manejador(bindings);
+    public void manejador(ActivityMainBinding bindings, AppCompatActivity activity) {
+        iterator.manejador(bindings,activity);
     }
-
-    @Override
-    public void changeTheme(AppCompatActivity activity) {
-        iterator.changeTheme(activity);
-    }
-
 
 }
