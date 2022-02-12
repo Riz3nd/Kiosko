@@ -14,3 +14,4 @@
 .idea/sonarlint
 .cxx
 local.properties
+.idea/vcs.xml
